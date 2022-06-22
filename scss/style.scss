@@ -1,0 +1,18 @@
+body {
+  align-items: center;
+  text-align: center;
+  section {
+    margin: 10px;
+    .row {
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      .column {
+        margin: 5px;
+      }
+    }
+  }
+  footer {
+    margin: 10px;
+  }
+}

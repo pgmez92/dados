@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7ba77f1158.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dades</title>
+  </head>
+  <body>
+    <header>
+      <h1>Generador de Dados</h1>
+    </header>
+    <main>
+      <section>
+        <div class="row">
+          <div class="column">
+            <h2>Dados Aleatorios</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            Número de dados
+            <input type="number" name="Dados" placeholder="Número de dados" />
+          </div>
+          <div class="column">
+            Número de caras
+            <input type="number" name="Caras" placeholder="Número de caras" />
+          </div>
+          <div class="column">
+            <input type="button" value="Generar" onclick="satan()" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <div class="column">
+            <p>
+              Tras efectuar la tirada han salido con los siguientes resultados:
+            </p>
+            <textarea
+              id="tiradas"
+              disabled
+              readonly
+              rows="10"
+              cols="50"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <p>Los dados repetidos son:</p>
+            <textarea
+              id="repes"
+              disabled
+              readonly
+              rows="10"
+              cols="50"
+            ></textarea>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <i class="fa-brands fa-github"></i
+      ><a href="https://github.com/pgmez92">pgmez92</a>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+</html>
